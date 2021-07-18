@@ -38,7 +38,7 @@ export default function App() {
 
   function resetTimer() {
     clearInterval(intervalRef.current);
-    setTitle('Ready for another?');
+    setTitle('Ready for another one?');
     setTimeLeft(25 * 60);
     intervalRef.current = null;
     setIsRunning(false);
