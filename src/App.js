@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <div className="timer">
         <span>{minutes}</span>
         <span>:</span>
